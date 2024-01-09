@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0002216256, g: 0.00018978062, b: 0.00015632866, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -347,7 +347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &55597146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,7 +764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &138465235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1541,7 +1541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &406967536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2320,6 +2320,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.367
       objectReference: {fileID: 0}
@@ -2646,7 +2656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &569140219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2815,8 +2825,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5150
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: -2.0434358e-25, y: -1.1377978e+37, z: -0.73806405,
-    w: NaN}
+  m_BoundingSphereOverride: {x: NaN, y: 7, z: NaN, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 12
   m_ShadowAngle: 0
@@ -3642,7 +3651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &903690923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3811,7 +3820,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5412
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 9.197e-42, z: 1e-45, w: -2.0000002}
+  m_BoundingSphereOverride: {x: 3.032e-42, y: 0, z: 3.034e-42, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 50
   m_ShadowAngle: 0
@@ -5952,7 +5961,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1445182711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6548,7 +6557,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1522640350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7529,7 +7538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1746118185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7698,7 +7707,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5150
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.000000041026592, y: 1.4587233e-19, z: 5.829063e-10,
+    w: 0.000043919477}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 12
   m_ShadowAngle: 0
@@ -8829,7 +8839,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5595
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.00087519555, y: 1.3555877e-19, z: 1.7086692e+19,
+    w: 7.317297e+28}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0.005
   m_ShadowAngle: 0
@@ -9105,7 +9116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2086187066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9126,7 +9137,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 300
+  m_Intensity: 200
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -9229,7 +9240,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 23.873241
+  m_Intensity: 15.915494
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -9274,7 +9285,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 4972
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 4.59179e-40, w: -1.177e-42}
+  m_BoundingSphereOverride: {x: NaN, y: 0, z: NaN, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 50
   m_ShadowAngle: 0
